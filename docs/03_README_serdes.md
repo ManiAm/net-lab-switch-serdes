@@ -85,7 +85,7 @@ Note that ASICs targeting the same Ethernet bandwidth class (e.g., Tomahawk 5 an
 
 ## Port Macros
 
-A **port macro** (also called a port block or port group) is a fixed hardware block on the ASIC that owns a cluster of SerDes lanes — typically 4 or 8 — along with their shared MAC engine, PCS logic, and clocking circuitry. Each port macro maps to one physical front-panel cage.
+A **port macro** (also called a port block) is a fixed hardware block on the ASIC that owns a cluster of SerDes lanes — typically 4 or 8 — along with their shared MAC engine, PCS logic, and clocking circuitry. Each port macro maps to one physical front-panel cage.
 
 For example, the Broadcom Tomahawk 1 divides its 128 lanes into 32 port macros of 4 lanes each. Those 32 macros correspond to 32 front-panel QSFP28 cages. The Tomahawk 5, with 512 lanes of 100G SerDes and 8-lane macros, has 64 port macros mapping to 64 OSFP cages.
 
